@@ -17,7 +17,7 @@ if (isset($_POST['btnEnviar'])){
         $mail = mail("yefry21yo@gmail.com", $asunto, $mensaje);
 
 
-        if(){
+        if($mail){
             echo "<h4>Correo enviado</h4>";
         }
     }
