@@ -1,3 +1,7 @@
+<?php
+include("forms/contacto.php");
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -1082,20 +1086,20 @@
 
           <div class="col-lg-8 mt-5 mt-lg-0">
 
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <form action="forms/contacto.php" method="post" role="form" class="php-email-form">
               <div class="row">
                 <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Nombre Completo" required>
+                  <input type="text" name="nombre" class="form-control" id="nombre" placeholder="Nombre Completo" required>
                 </div>
                 <div class="col-md-6 form-group mt-3 mt-md-0">
                   <input type="email" class="form-control" name="email" id="email" placeholder="Correo Electronico" required>
                 </div>
               </div>
               <div class="form-group mt-3">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Asunto" required>
+                <input type="text" class="form-control" name="asunto" id="asunto" placeholder="Asunto" required>
               </div>
               <div class="form-group mt-3">
-                <textarea class="form-control" name="message" rows="8" placeholder="Mensaje" required></textarea>
+                <textarea class="form-control" name="mensaje" id="mensaje" rows="8" placeholder="Mensaje" required></textarea>
               </div>
               <div class="my-3">
                 <div class="loading">Loading</div>
