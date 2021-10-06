@@ -16,7 +16,7 @@
       return [...document.querySelectorAll(el)]
     } else {
       return document.querySelector(el)
-    }
+    } 
   }
 
   /**
@@ -209,6 +209,13 @@
     selector: '.glightbox'
   });
 
+
+
+  const glightbox1 = GLightbox({
+    selector: '.glightbox1'
+  });
+
+
   /**
    * Events slider
    */
@@ -262,6 +269,22 @@
   const galleryLightbox = GLightbox({
     selector: '.gallery-lightbox'
   });
+
+
+  const galleryLightbox1 = GLightbox({
+    selector: '.gallery-lightbox1'
+  });
+
+  const galleryLightbox2 = GLightbox({
+    selector: '.gallery-lightbox2'
+  });
+
+  const galleryLightbox3 = GLightbox({
+    selector: '.gallery-lightbox3'
+  });
+
+
+  
 
   /**
    * Animation on scroll
