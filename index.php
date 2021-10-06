@@ -1086,7 +1086,7 @@ include("forms/contacto.php");
 
           <div class="col-lg-8 mt-5 mt-lg-0">
 
-            <form action="forms/contacto.php" method="post" role="form" class="php-email-form">
+            <form action="forms/contacto.php" method="post" role="form" class="php-email-form" id="formContacto">
               <div class="row">
                 <div class="col-md-6 form-group">
                   <input type="text" name="nombre" class="form-control" id="nombre" placeholder="Nombre Completo" required>
@@ -1104,9 +1104,9 @@ include("forms/contacto.php");
               <div class="my-3">
                 <div class="loading">Loading</div>
                 <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
+                <div class="sent-message">Su mensaje ha sido enviado con éxito. Gracias!</div>
               </div>
-              <div class="text-center"><button type="submit">Enviar mensaje</button></div>
+              <div class="text-center"><button type="submit" id="btnEnviar" name="btnEnviar" >Enviar mensaje</button></div>
             </form>
 
           </div>
