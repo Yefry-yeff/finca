@@ -352,7 +352,7 @@ include("forms/contacto.php");
                 <div class="row">
                   <div class="col-lg-8 details order-2 order-lg-1">
                     <p class="fst-italic">Precio para explotar la marca</p>
-                    <p>$ 100,000.00 </p>
+                    <p style="size: 15px;">$ 100,000.00 </p>
                     <a href="#contact" style="color: aqua;"><b>Contactanos</b> </a>
                   </div>
                   <!-- <div class="col-lg-4 text-center order-1 order-lg-2">
@@ -440,8 +440,76 @@ include("forms/contacto.php");
                 <div class="row">
                   <div class="col-lg-8 details order-2 order-lg-1">
                     <h3>Infraestructura </h3>
-                    <p>casa</p>
-                    <p>Bodega</p>
+                    <p><b>Casa: </b> Casa con capacidad para 100 trabajadores, incluye tambien una bodega y cocina.</p>
+                      <div class="container-fluid" data-aos="fade-up" data-aos-delay="100">
+                          <div class="row g-0">
+                            
+                            <div class="col-lg-3 col-md-4">
+                              <div class="gallery-item">
+                                <a href="assets/img/tigre/casa.png" class="gallery-lightboxest1" data-gall="gallery-item"  data-title="Casa con capacidad para 100 trabajadores." >
+                                  <img src="assets/img/tigre/casa.png" alt="" class="img-fluid">
+                                </a>
+                              </div>
+                            </div>
+                            
+                            <div class="col-lg-3 col-md-4">
+                              <div class="gallery-item">
+                                <a href="assets/img/tigre/suministro.png" class="gallery-lightboxest1" data-title="Equipos y suministros para el café Procesando." data-gall="gallery-item">
+                                  <img src="assets/img/tigre/suministro.png" alt="" class="img-fluid">
+                                </a>
+                              </div>
+                            </div>
+                  
+                            <div class="col-lg-3 col-md-4">
+                              <div class="gallery-item">
+                                <a href="assets/img/tigre/casa3.png" class="gallery-lightboxest1" data-gall="gallery-item">
+                                  <img src="assets/img/tigre/casa3.png" alt="" class="img-fluid">
+                                </a>
+                              </div>
+                            </div>
+                  
+                            <div class="col-lg-3 col-md-4">
+                              <div class="gallery-item">
+                                <a href="assets/img/tigre/maquina1.png" class="gallery-lightboxest1" data-gall="gallery-item">
+                                  <img src="assets/img/tigre/maquina1.png" alt="" class="img-fluid">
+                                </a>
+                              </div>
+                            </div>
+                  
+                            <div class="col-lg-3 col-md-4">
+                              <div class="gallery-item">
+                                <a href="assets/img/tigre/maquina2.png" class="gallery-lightboxest1" data-gall="gallery-item">
+                                  <img src="assets/img/tigre/maquina2.png" alt="" class="img-fluid">
+                                </a>
+                              </div>
+                            </div>
+                  
+                            <div class="col-lg-3 col-md-4">
+                              <div class="gallery-item">
+                                <a href="assets/img/tigre/maquina3.png" class="gallery-lightboxest1" data-gall="gallery-item">
+                                  <img src="assets/img/tigre/maquina3.png" alt="" class="img-fluid">
+                                </a>
+                              </div>
+                            </div>
+
+                            <div class="col-lg-3 col-md-4">
+                              <div class="gallery-item">
+                                <a href="assets/img/tigre/casa5.png" class="gallery-lightboxest1" data-title="Nivel 5 solar secadora." data-gall="gallery-item">
+                                  <img src="assets/img/tigre/casa5.png" alt="" class="img-fluid">
+                                </a>
+                              </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4">
+                              <div class="gallery-item">
+                                <a href="assets/img/tigre/casa6.png" class="gallery-lightboxest1" data-title="Despulpado y Lavado para ecológico beneficio." data-gall="gallery-item">
+                                  <img src="assets/img/tigre/casa6.png" alt="" class="img-fluid">
+                                </a>
+                              </div>
+                            </div>
+                  
+                           
+                          </div>
+                      </div>
                   </div>
                 <!-- 
                   <div class="col-lg-4 text-center order-1 order-lg-2">
@@ -539,9 +607,9 @@ include("forms/contacto.php");
               <div class="tab-pane" id="tab-6T">
                 <div class="row">
                   <div class="col-lg-8 details order-2 order-lg-1">
-                    <h3>PRECIO</h3>
-                    <p>$ 620,000.00</p>
-                    <a href="#contact" style="color: aqua;"><b>Contactanos</b> </a>
+                    <h1>PRECIO</h1>
+                    <p style="font-size: 45px;">$ 620,000.00</p>
+                    <a href="#contact" style="color: aqua; font-size:35px"><b>Contactanos</b> </a>
                   </div>
                   <!-- <div class="col-lg-4 text-center order-1 order-lg-2">
                     <img src="assets/img/specials-5.png" alt="" class="img-fluid">
@@ -1108,7 +1176,7 @@ include("forms/contacto.php");
               </div>
               <div class="text-center"><button type="submit" id="btnEnviar" name="btnEnviar" >Enviar mensaje</button></div>
             </form>
-
+ 
           </div>
 
         </div>

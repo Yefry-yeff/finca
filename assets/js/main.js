@@ -283,6 +283,10 @@
     selector: '.gallery-lightbox3'
   });
 
+  const galleryLightboxest1 = GLightbox({
+    selector: '.gallery-lightboxest1'
+  });
+
 
   
 
