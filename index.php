@@ -96,16 +96,12 @@ include("forms/contacto.php");
         <div class="col-lg-12 text-center">
           <h1>EN VENTA <span>FINCAS Y MARCA DE CAFÉ </span></h1> <br>
           <div class="btns">
-            <a href="#menu" class="btn-menu animated fadeInUp scrollto">CAFÉ DON INDALECIO</a>
+            <a href="#menu" class="btn-menu animated fadeInUp scrollto"> CAFÉ DON INDALECIO</a>
             <a href="#specials" class="btn-book animated fadeInUp scrollto">FINCA EL TIGRE</a>
             <a href="#pacaya" class="btn-book animated fadeInUp scrollto">FINCA PACAYA</a>
             <a href="#pacayacentro" class="btn-book animated fadeInUp scrollto">FINCA PACAYA CENTRO</a>
           </div>
-
         </div>
-      
-
-      
     </div>
   </section><!-- End Hero -->
 
@@ -1178,11 +1174,6 @@ include("forms/contacto.php");
       </div>
     </section><!-- End Events Section -->
 
-  
-
-   
-   
-
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
       <div class="container" data-aos="fade-up">
@@ -1329,10 +1320,46 @@ include("forms/contacto.php");
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
   <script type="text/javascript">
-function googleTranslateElementInit() {
-  new google.translate.TranslateElement({pageLanguage: 'es', includedLanguages: 'ca,eu,gl,en,es,fr,it,pt,de'}, 'google_translate_element');
+  function googleTranslateElementInit() {
+    new google.translate.TranslateElement({pageLanguage: 'es', includedLanguages: 'ca,eu,gl,en,es,fr,it,pt,de'}, 'google_translate_element');
+  }
+
+  async function cambiarBackgrounds(){
+    var imagen = document.getElementById("hero");
+    var url = '';
+
+    arregloImagenes = ["'assets/img/1.jpg'", "'assets/img/cafe.jpg'", "'assets/img/hero-bg.jpg'", "'assets/img/event-birthday.jpg'", "'assets/img/ventapacayacentro.jpg'", "'assets/img/geotigre.png'"];
+    
+    for (let i = 0; i < arregloImagenes.length; i++) {
+      url = arregloImagenes[i];
+      
+      imagen.style.backgroundImage = "url("+url+")";
+      await delay(2);
+      
+    }
+  }
+
+  function delay(n){
+    return new Promise(function(resolve){
+        setTimeout(resolve,n*1000);
+    });
 }
-</script>
+
+async function myAsyncFunction(){
+    //Do what you want here 
+    console.log("Before the delay")
+
+    await delay(5);
+
+    console.log("After the delay")
+    //Do what you want here too
+
+}
+
+myAsyncFunction();
+
+  (cambiarBackgrounds)();
+  </script>
 
 <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 </body>
