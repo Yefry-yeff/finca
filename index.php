@@ -77,10 +77,8 @@ include("forms/contacto.php");
           <li><a class="nav-link scrollto" href="#pacaya">FINCA PACAYA</a></li>
           <li><a class="nav-link scrollto" href="#pacayacentro">FINCA PACAYA CENTRO</a></li>
           <li><a class="nav-link scrollto" href="#events">EN VENTA</a></li>
-          
-           
-         
           <li><a class="nav-link scrollto" href="#contact">CONTACTANOS</a></li>
+          <li><a class="nav-link scrollto" ><div id="google_translate_element"></div></a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
 
@@ -1330,7 +1328,13 @@ include("forms/contacto.php");
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'es', includedLanguages: 'ca,eu,gl,en,es,fr,it,pt,de'}, 'google_translate_element');
+}
+</script>
 
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 </body>
 
 </html>
