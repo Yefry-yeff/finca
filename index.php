@@ -83,6 +83,8 @@ include("forms/contacto.php");
           <li><a class="nav-link scrollto" href="#contact">CONTACTANOS</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
+
+        
       </nav><!-- .navbar -->
       <!-- <a href="#book-a-table" class="book-a-table-btn scrollto d-none d-lg-flex">Book a table</a> -->
 
@@ -240,13 +242,31 @@ include("forms/contacto.php");
               <div class="tab-pane" id="tab-3">
                 <div class="row">
                   <div class="col-lg-8 details order-2 order-lg-1">
-                    <h3>Historia</h3>
-                    <p class="fst-italic">Eos voluptatibus quo. Odio similique illum id quidem non enim fuga. Qui natus non sunt dicta dolor et. In asperiores velit quaerat perferendis aut</p>
-                    <p>Iure officiis odit rerum. Harum sequi eum illum corrupti culpa veritatis quisquam. Neque necessitatibus illo rerum eum ut. Commodi ipsam minima molestiae sed laboriosam a iste odio. Earum odit nesciunt fugiat sit ullam. Soluta et harum voluptatem optio quae</p>
+                    <h3>Historia del café Don Indalecio</h3>
+                    <p>
+                      En 1914 don Indalecio Inestroza salió de su natal aldea de Parumble, municipio de Silca, Olancho, rumbo a la agreste montaña El tigre llevando un cuero de toro para dormir, unas libras de frijoles, manteca de cerdo, un atado de dulce, ocote para alumbrarse en la noche y la esperanza de cazar animales de monte y así comer carne. 
+                      Pero en el lomo de un pequeño caballo llevaba su mas preciado tesoro: 300 plantitas de café que le habían regalado los españoles de origen Catalán Juanito Villar de Bo y Antonio Torres. 
+                      El tenaz y soñador don Indalecio caminó por más de 4 horas tirando del caballo junto a un trabajador y paso a paso se internó en el centro de la inhóspita montaña. 
+                      Por fin, al llegar a su destino, el sueño de don Indalecio se hizo realidad, comenzó por primera vez la siembra de café en las montañas Olanchanas, escribiendo así una de las paginas más doradas de la historia del café en Honduras. 
+                      Y así surge el delicioso y aromático café Don Indalecio. 
+                    </p>
                   </div>
-                  <!-- <div class="col-lg-4 text-center order-1 order-lg-2">
-                    <img src="assets/img/specials-3.png" alt="" class="img-fluid">
-                  </div> -->
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                      <div class="container-fluid" data-aos="fade-up" data-aos-delay="100">
+                        <div class="row g-0">
+
+                          <div class="col-lg-12 col-md-12">
+                            <div class="gallery-item">
+                              <a href="assets/img/historia.mp4" class="gallery-lightboxhis" data-gall="gallery-item">
+                                <img src="assets/img/click.png" alt="" class="img-fluid">
+                              </a>
+                            </div>
+                          </div>
+                                 
+                        </div>
+
+                      </div>
+                  </div> 
                 </div>
               </div>
               <div class="tab-pane" id="tab-4" >
@@ -351,9 +371,9 @@ include("forms/contacto.php");
               <div class="tab-pane" id="tab-6">
                 <div class="row">
                   <div class="col-lg-8 details order-2 order-lg-1">
-                    <p class="fst-italic">Precio para explotar la marca</p>
-                    <p style="size: 15px;">$ 100,000.00 </p>
-                    <a href="#contact" style="color: aqua;"><b>Contactanos</b> </a>
+                    <h1>PRECIO PARA EXPLOTAR LA MARCA</h1>
+                    <p style="font-size: 45px;">$ 100,000.00</p>
+                    <a href="#contact" style="color: aqua; font-size:35px"><b>Contactanos</b> </a>
                   </div>
                   <!-- <div class="col-lg-4 text-center order-1 order-lg-2">
                     <img src="assets/img/specials-5.png" alt="" class="img-fluid">
@@ -642,9 +662,9 @@ include("forms/contacto.php");
               <li class="nav-item">
                 <a class="nav-link" data-bs-toggle="tab" href="#tab-2P">GEOGRAFÍA</a>
               </li>
-              <li class="nav-item">
+              <!-- <li class="nav-item">
                 <a class="nav-link" data-bs-toggle="tab" href="#tab-3P">INFRAESTRUTURA</a>
-              </li>
+              </li> -->
               <li class="nav-item">
                 <a class="nav-link" data-bs-toggle="tab" href="#tab-4P">MULTIMEDIA</a>
               </li>
@@ -662,26 +682,29 @@ include("forms/contacto.php");
                 <div class="row">
                   <div class="col-lg-8 details order-2 order-lg-1">
                     <h3>VARIEDAD DE CAFÉ</h3>
-                    <p class="fst-italic">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka</p>
-                    <p>Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint. Laborum eos ipsum ipsa odit magni. Incidunt hic ut molestiae aut qui. Est repellat minima eveniet eius et quis magni nihil. Consequatur dolorem quaerat quos qui similique accusamus nostrum rem vero</p>
+                    <p>Plantada en su totalidad con Variedad parainema con una edad de 3 años.</p>
                   </div>
-                  <!-- <div class="col-lg-4 text-center order-1 order-lg-2">
-                    <img src="assets/img/cafepacaya.png" alt="" class="img-fluid">
-                  </div> -->
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="assets/img/pacaya/cafe.png" alt="" class="img-fluid">
+                  </div>
                 </div>
               </div>
               <div class="tab-pane" id="tab-2P">
                 <div class="row">
-                  <div class="col-lg-8 details order-2 order-lg-1">
-                    <h3>Et blanditiis nemo veritatis excepturi</h3>
-                    <p class="fst-italic">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka</p>
-                    <p>Ea ipsum voluptatem consequatur quis est. Illum error ullam omnis quia et reiciendis sunt sunt est. Non aliquid repellendus itaque accusamus eius et velit ipsa voluptates. Optio nesciunt eaque beatae accusamus lerode pakto madirna desera vafle de nideran pal</p>
+                    <div class="col-lg-8 details order-2 order-lg-1">
+                      <h3>Acres: </h3>
+                      <p>46 Acres</p>
+                      <h3>Altura: </h3>
+                      <p>1300 metros sobre el nivel del mar</p>
+                      <h3>Topografía: </h3>
+                      <p>Semi montañoso</p>
+                    
+                    </div>
+                    <div class="col-lg-4 text-center order-1 order-lg-2">
+                      <img src="assets/img/pacaya/geo.png" alt="" class="img-fluid">
+                    </div>
                   </div>
-                  <!-- <div class="col-lg-4 text-center order-1 order-lg-2">
-                    <img src="assets/img/specials-2.png" alt="" class="img-fluid">
-                  </div> -->
                 </div>
-              </div>
               <div class="tab-pane" id="tab-3P">
                 <div class="row">
                   <div class="col-lg-8 details order-2 order-lg-1">
@@ -770,23 +793,22 @@ include("forms/contacto.php");
                 </div>
               </div>
               <div class="tab-pane" id="tab-5P">
-                <div class="row">
-                  <div class="col-lg-8 details order-2 order-lg-1">
-                    <h3>Est eveniet ipsam sindera pad rone matrelat sando reda</h3>
-                    <p class="fst-italic">Omnis blanditiis saepe eos autem qui sunt debitis porro quia.</p>
-                    <p>Exercitationem nostrum omnis. Ut reiciendis repudiandae minus. Omnis recusandae ut non quam ut quod eius qui. Ipsum quia odit vero atque qui quibusdam amet. Occaecati sed est sint aut vitae molestiae voluptate vel</p>
+                  <div class="row">
+                    <div class="col-lg-8 details order-2 order-lg-1">
+                      <h3>UBICACIÓN</h3>
+
+                    </div>
+                    <div data-aos="fade-up">
+                      <iframe style="border:0; width: 100%; height: 350px;" src="https://maps.google.com/maps?width=1389&amp;height=350&amp;hl=en&amp;q=tegucigalpa torre metropoli&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" frameborder="0" allowfullscreen></iframe>
+                    </div>
                   </div>
-                  <!-- <div class="col-lg-4 text-center order-1 order-lg-2">
-                    <img src="assets/img/specials-5.png" alt="" class="img-fluid">
-                  </div> -->
-                </div>
               </div>
               <div class="tab-pane" id="tab-6P">
                 <div class="row">
-                  <div class="col-lg-8 details order-2 order-lg-1">
-                    <h3>Est eveniet ipsam sindera pad rone matrelat sando reda</h3>
-                    <p class="fst-italic">Omnis blanditiis saepe eos autem qui sunt debitis porro quia.</p>
-                    <p>Exercitationem nostrum omnis. Ut reiciendis repudiandae minus. Omnis recusandae ut non quam ut quod eius qui. Ipsum quia odit vero atque qui quibusdam amet. Occaecati sed est sint aut vitae molestiae voluptate vel</p>
+                <div class="col-lg-8 details order-2 order-lg-1">
+                    <h1>PRECIO</h1>
+                    <p style="font-size: 45px;">$ 220,000.00</p>
+                    <a href="#contact" style="color: aqua; font-size:35px"><b>Contactanos</b> </a>
                   </div>
                   <!-- <div class="col-lg-4 text-center order-1 order-lg-2">
                     <img src="assets/img/specials-5.png" alt="" class="img-fluid">
@@ -839,8 +861,18 @@ include("forms/contacto.php");
                 <div class="row">
                   <div class="col-lg-8 details order-2 order-lg-1">
                     <h3>VARIEDAD DE CAFÉ</h3>
-                    <p class="fst-italic">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka</p>
-                    <p>Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint. Laborum eos ipsum ipsa odit magni. Incidunt hic ut molestiae aut qui. Est repellat minima eveniet eius et quis magni nihil. Consequatur dolorem quaerat quos qui similique accusamus nostrum rem vero</p>
+                    <p><b>Plantados con 10 variedades de café.</b></p>
+                    <p>61.500 plantas de Variedad Lempira 66.900 plantas de de Parainema variedad
+                    7.500 plantas de Variedad Icatú 8.000 plantas de la variedad obatta 24.500 plantas de la variedad Catuai 4.500 plantas de Variedad Pacamara</p>
+                    <p> 
+                        2,000 PACAS
+                        2,000 PACAMARA
+                        2,000 CATUAI
+                        4,000 BOURBON
+                        3,000 GEISHA
+                        1,000 TIPICA
+                        4,000 ICATU
+                    </p>
                   </div>
                   <div class="col-lg-4 text-center order-1 order-lg-2">
                     <img src="assets/img/cafepacayacentro.png" alt="" class="img-fluid">
@@ -848,27 +880,83 @@ include("forms/contacto.php");
                 </div>
               </div>
               <div class="tab-pane" id="tab-2PC">
-                <div class="row">
-                  <div class="col-lg-8 details order-2 order-lg-1">
-                    <h3>Et blanditiis nemo veritatis excepturi</h3>
-                    <p class="fst-italic">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka</p>
-                    <p>Ea ipsum voluptatem consequatur quis est. Illum error ullam omnis quia et reiciendis sunt sunt est. Non aliquid repellendus itaque accusamus eius et velit ipsa voluptates. Optio nesciunt eaque beatae accusamus lerode pakto madirna desera vafle de nideran pal</p>
+              <div class="row">
+                    <div class="col-lg-8 details order-2 order-lg-1">
+                      <h3>Acres: </h3>
+                      <p>124 Acres</p>
+                      <h3>Altura: </h3>
+                      <p>1550 metros sobre el nivel del mar</p>
+                      <h3>Topografía: </h3>
+                      <p>Semi montañoso</p>
+                    
+                    </div>
+                    <div class="col-lg-4 text-center order-1 order-lg-2">
+                      <img src="assets/img/pacayacentro/geo.png" alt="" class="img-fluid">
+                    </div>
                   </div>
-                  <!-- <div class="col-lg-4 text-center order-1 order-lg-2">
-                    <img src="assets/img/specials-2.png" alt="" class="img-fluid">
-                  </div> -->
-                </div>
               </div>
               <div class="tab-pane" id="tab-3PC">
                 <div class="row">
-                  <div class="col-lg-8 details order-2 order-lg-1">
-                    <h3>Impedit facilis occaecati odio neque aperiam sit</h3>
-                    <p class="fst-italic">Eos voluptatibus quo. Odio similique illum id quidem non enim fuga. Qui natus non sunt dicta dolor et. In asperiores velit quaerat perferendis aut</p>
-                    <p>Iure officiis odit rerum. Harum sequi eum illum corrupti culpa veritatis quisquam. Neque necessitatibus illo rerum eum ut. Commodi ipsam minima molestiae sed laboriosam a iste odio. Earum odit nesciunt fugiat sit ullam. Soluta et harum voluptatem optio quae</p>
+                <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>Infraestructura </h3>
+                    <p><b>Casa: </b> Casa con capacidad para 60 trabajadores.</p>
+                      <div class="container-fluid" data-aos="fade-up" data-aos-delay="100">
+                          <div class="row g-0">
+                            
+                            <div class="col-lg-3 col-md-4">
+                              <div class="gallery-item">
+                                <a href="assets/img/pacayacentro/casa1.png" class="gallery-lightboxest1" data-gall="gallery-item"  data-title="Casa con capacidad para 100 trabajadores." >
+                                  <img src="assets/img/pacayacentro/casa1.png" alt="" class="img-fluid">
+                                </a>
+                              </div>
+                            </div>
+                            
+                            <div class="col-lg-3 col-md-4">
+                              <div class="gallery-item">
+                                <a href="assets/img/pacayacentro/casa2.png" class="gallery-lightboxest1" data-title="Equipos y suministros para el café Procesando." data-gall="gallery-item">
+                                  <img src="assets/img/pacayacentro/casa2.png" alt="" class="img-fluid">
+                                </a>
+                              </div>
+                            </div>
+                  
+                            <div class="col-lg-3 col-md-4">
+                              <div class="gallery-item">
+                                <a href="assets/img/pacayacentro/casa3.png" class="gallery-lightboxest1" data-gall="gallery-item">
+                                  <img src="assets/img/pacayacentro/casa3.png" alt="" class="img-fluid">
+                                </a>
+                              </div>
+                            </div>
+                  
+                            <div class="col-lg-3 col-md-4">
+                              <div class="gallery-item">
+                                <a href="assets/img/pacayacentro/maquinaria.png" class="gallery-lightboxest1" data-gall="gallery-item">
+                                  <img src="assets/img/pacayacentro/maquinaria.png" alt="" class="img-fluid">
+                                </a>
+                              </div>
+                            </div>
+                  
+                            <div class="col-lg-3 col-md-4">
+                              <div class="gallery-item">
+                                <a href="assets/img/pacayacentro/maquinaria2.png" class="gallery-lightboxest1" data-gall="gallery-item">
+                                  <img src="assets/img/pacayacentro/maquinaria2.png" alt="" class="img-fluid">
+                                </a>
+                              </div>
+                            </div>
+                  
+                            <div class="col-lg-3 col-md-4">
+                              <div class="gallery-item">
+                                <a href="assets/img/pacayacentro/maquinaria3.png" class="gallery-lightboxest1" data-gall="gallery-item">
+                                  <img src="assets/img/pacayacentro/maquinaria3.png" alt="" class="img-fluid">
+                                </a>
+                              </div>
+                            </div>
+
+                        
+                  
+                           
+                          </div>
+                      </div>
                   </div>
-                  <!-- <div class="col-lg-4 text-center order-1 order-lg-2">
-                    <img src="assets/img/specials-3.png" alt="" class="img-fluid">
-                  </div> -->
                 </div>
               </div>
               <div class="tab-pane" id="tab-4PC">
@@ -947,23 +1035,22 @@ include("forms/contacto.php");
                 </div>
               </div>
               <div class="tab-pane" id="tab-5PC">
-                <div class="row">
-                  <div class="col-lg-8 details order-2 order-lg-1">
-                    <h3>Est eveniet ipsam sindera pad rone matrelat sando reda</h3>
-                    <p class="fst-italic">Omnis blanditiis saepe eos autem qui sunt debitis porro quia.</p>
-                    <p>Exercitationem nostrum omnis. Ut reiciendis repudiandae minus. Omnis recusandae ut non quam ut quod eius qui. Ipsum quia odit vero atque qui quibusdam amet. Occaecati sed est sint aut vitae molestiae voluptate vel</p>
+                  <div class="row">
+                    <div class="col-lg-8 details order-2 order-lg-1">
+                      <h3>UBICACIÓN</h3>
+
+                    </div>
+                    <div data-aos="fade-up">
+                      <iframe style="border:0; width: 100%; height: 350px;" src="https://maps.google.com/maps?width=1389&amp;height=350&amp;hl=en&amp;q=tegucigalpa torre metropoli&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" frameborder="0" allowfullscreen></iframe>
+                    </div>
                   </div>
-                  <!-- <div class="col-lg-4 text-center order-1 order-lg-2">
-                    <img src="assets/img/specials-5.png" alt="" class="img-fluid">
-                  </div> -->
-                </div>
               </div>
               <div class="tab-pane" id="tab-6PC">
-                <div class="row">
-                  <div class="col-lg-8 details order-2 order-lg-1">
-                    <h3>Est eveniet ipsam sindera pad rone matrelat sando reda</h3>
-                    <p class="fst-italic">Omnis blanditiis saepe eos autem qui sunt debitis porro quia.</p>
-                    <p>Exercitationem nostrum omnis. Ut reiciendis repudiandae minus. Omnis recusandae ut non quam ut quod eius qui. Ipsum quia odit vero atque qui quibusdam amet. Occaecati sed est sint aut vitae molestiae voluptate vel</p>
+              <div class="row">
+                <div class="col-lg-8 details order-2 order-lg-1">
+                    <h1>PRECIO</h1>
+                    <p style="font-size: 45px;">$ 550,000.00</p>
+                    <a href="#contact" style="color: aqua; font-size:35px"><b>Contactanos</b> </a>
                   </div>
                   <!-- <div class="col-lg-4 text-center order-1 order-lg-2">
                     <img src="assets/img/specials-5.png" alt="" class="img-fluid">
@@ -1138,14 +1225,15 @@ include("forms/contacto.php");
               <div class="email">
                 <i class="bi bi-envelope"></i>
                 <h4>Email:</h4>
-                <p>karolvalladares59@gmail.com</p>
-                <p>cafebefinca@gmail.com</p>
+                <p>andreainestrozaa@gmail.com</p>
+                <p>clasolorzano0605@hotmail.com</p>
               </div>
 
               <div class="phone">
                 <i class="bi bi-phone"></i>
                 <h4>Telefono:</h4>
-                <p>+504 3206-1291</p>
+                <p>+504 97884151</p>
+                <p>+52 81 26675485</p>
               </div>
 
             </div>
@@ -1199,9 +1287,10 @@ include("forms/contacto.php");
                 Metrópolis, tower 1, 9
                   level, cubicle 10911<br>
                   Tegucigalpa Honduras<br><br>
-                <strong>Phone:</strong> +504 3206-1291<br>
-                <strong>Email:</strong> karolvalladares59@gmail.com<br>
-                <strong>Email:</strong> cafebefinca@gmail.com<br>
+                <strong>Phone:</strong> +504 97884151<br>
+                <strong>Phone:</strong> +52 81 26675485<br>
+                <strong>Email:</strong> andreainestrozaa@gmail.com<br>
+                <strong>Email:</strong> clasolorzano0605@hotmail.com<br>
               </p>
               <div class="social-links mt-3">
                 <!-- <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a> -->

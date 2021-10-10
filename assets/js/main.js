@@ -286,6 +286,9 @@
   const galleryLightboxest1 = GLightbox({
     selector: '.gallery-lightboxest1'
   });
+  const galleryLightboxhis = GLightbox({
+    selector: '.gallery-lightboxhis'
+  });
 
 
   
