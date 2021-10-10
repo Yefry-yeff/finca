@@ -1329,13 +1329,17 @@ include("forms/contacto.php");
     var url = '';
 
     arregloImagenes = ["'assets/img/1.jpg'", "'assets/img/cafe.jpg'", "'assets/img/hero-bg.jpg'", "'assets/img/event-birthday.jpg'", "'assets/img/ventapacayacentro.jpg'", "'assets/img/geotigre.png'"];
-    
-    for (let i = 0; i < arregloImagenes.length; i++) {
+    let i = 0;
+    let conteo = arregloImagenes.length - 1 ;
+    for (i = 0; i < arregloImagenes.length; i++) {
       url = arregloImagenes[i];
       
       imagen.style.backgroundImage = "url("+url+")";
-      await delay(2);
+      await delay(3);
       
+      if (i == conteo) {
+        i=0;
+      }
     }
   }
 
@@ -1345,18 +1349,6 @@ include("forms/contacto.php");
     });
 }
 
-async function myAsyncFunction(){
-    //Do what you want here 
-    console.log("Before the delay")
-
-    await delay(5);
-
-    console.log("After the delay")
-    //Do what you want here too
-
-}
-
-myAsyncFunction();
 
   (cambiarBackgrounds)();
   </script>
