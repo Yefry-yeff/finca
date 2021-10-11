@@ -9,10 +9,11 @@ include("forms/contacto.php");
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Café Don Indalecio</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
-
+  <title>Café Don Indalecio - Venta de fincas</title>
+  <meta content="Venta de fincas de café en Olancho Honduras, se venden 3 fincas de café y una marca de café para ser explotada." name="description">
+  <meta content="café, fincas, venta de fincas, venta de café, fincas en Honduras, fincas en Olancho Honduras, venta de fincas Honduras" name="keywords">
+  <meta http-equiv=”language” content=”es-HN:español,en-US”>
+  <meta name="copyright" content="Café don Indalecio" />
   <!-- Favicons -->
   <link href="assets/img/icon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
@@ -32,12 +33,6 @@ include("forms/contacto.php");
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: Café Don Indalecio - v3.1.0
-  * Template URL: https://bootstrapmade.com/Café Don Indalecio-restaurant-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
 <body>
@@ -1311,12 +1306,12 @@ include("forms/contacto.php");
     var imagen = document.getElementById("hero");
     var url = '';
 
-    arregloImagenes = ["'assets/img/1.jpg'", "'assets/img/cafe.jpg'", "'assets/img/pacayacentro/pic6.jpeg'", "'assets/img/ventapacaya.jpeg'", "'assets/img/pic3.jpeg'", "'assets/img/pic1.jpeg'"];
+    arregloImagenes = ["'assets/img/pacayacentro/pic5.jpeg'", "'assets/img/cafe.jpg'", "'assets/img/pacayacentro/pic6.jpeg'", "'assets/img/ventapacaya.jpeg'", "'assets/img/pic3.jpeg'", "'assets/img/pic1.jpeg'"];
     let i = 0;
     let conteo = arregloImagenes.length - 1 ;
     for (i = 0; i < arregloImagenes.length; i++) {
       url = arregloImagenes[i];
-      
+ 
       imagen.style.backgroundImage = "url("+url+")";
       await delay(3);
       
@@ -1331,7 +1326,6 @@ include("forms/contacto.php");
         setTimeout(resolve,n*1000);
     });
 }
-
 
   (cambiarBackgrounds)();
   </script>
