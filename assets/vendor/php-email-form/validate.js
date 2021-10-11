@@ -93,6 +93,10 @@
     thisForm.querySelector('.loading').classList.remove('d-block');
     thisForm.querySelector('.sent-message').innerHTML = error;
     thisForm.querySelector('.sent-message').classList.add('d-block');
+    setTimeout(() => {
+      thisForm.querySelector('.sent-message').remove();
+    }, 5000);
+   
     thisForm.reset(); 
   }
 
