@@ -1328,7 +1328,7 @@ include("forms/contacto.php");
     var imagen = document.getElementById("hero");
     var url = '';
 
-    arregloImagenes = ["'assets/img/1.jpg'", "'assets/img/cafe.jpg'", "'assets/img/hero-bg.jpg'", "'assets/img/event-birthday.jpg'", "'assets/img/ventapacayacentro.jpg'", "'assets/img/geotigre.png'"];
+    arregloImagenes = ["'assets/img/1.jpg'", "'assets/img/cafe.jpg'", "'assets/img/pacayacentro/pic6.jpeg'", "'assets/img/ventapacaya.jpeg'", "'assets/img/pic3.jpeg'", "'assets/img/pic1.jpeg'"];
     let i = 0;
     let conteo = arregloImagenes.length - 1 ;
     for (i = 0; i < arregloImagenes.length; i++) {
