@@ -11,7 +11,7 @@ include("forms/contacto.php");
 
   <title>Café Don Indalecio - Venta de fincas</title>
   <meta content="Venta de fincas de café en Olancho Honduras, se venden 3 fincas de café y una marca de café para ser explotada." name="description">
-  <meta content="café, fincas, venta de fincas, venta de café, fincas en Honduras, fincas en Olancho Honduras, venta de fincas Honduras" name="keywords">
+  <meta content="café, fincas, venta de fincas, venta de café, fincas de cafe en Honduras, fincas de café en Honduras, fincas en Olancho Honduras, venta de fincas de cafe Honduras" name="keywords">
   <meta http-equiv=”language” content=”es-HN:español,en-US”>
   <meta name="copyright" content="Café don Indalecio" />
   <!-- Favicons -->
@@ -72,7 +72,7 @@ include("forms/contacto.php");
     <div class="container position-relative text-left text-lg-start" data-aos="zoom-in" data-aos-delay="100">
       <div class="row"></div>
         <div class="col-lg-12 text-center">
-          <h1>EN VENTA <span>FINCAS Y MARCA DE CAFÉ </span></h1> <br>
+          <h1>EN VENTA <span>FINCAS Y MARCA DE CAFÉ OLANCHO, HONDURAS</span></h1> <br>
           <div class="btns">
             <a href="#menu" class="btn-menu animated fadeInUp scrollto"> CAFÉ DON INDALECIO</a>
             <a href="#specials" class="btn-book animated fadeInUp scrollto">FINCA EL TIGRE</a>
@@ -110,50 +110,6 @@ include("forms/contacto.php");
 
       </div>
     </section><!-- End About Section -->
-
-    <!-- ======= Why Us Section ======= -->
-    
-    <!-- <section id="why-us" class="why-us">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Sobre nosotros</h2>
-          <p>Fincas de café</p>
-        </div>
-
-        <div class="row">
-
-          <div class="col-lg-4">
-            <div class="box" data-aos="zoom-in" data-aos-delay="100">
-              <span>FINCA EL TIGRE</span>
-              <h4>ÁREA 58 MANZANAS</h4>
-              <p>Ulamco laboris nisi ut aliquip ex ea commodo consequat. Et consectetur ducimus vero placeat</p>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="box" data-aos="zoom-in" data-aos-delay="100">
-              <span>FINCA PACAYA</span>
-              <h4>ÁREA 19 MANZANAS</h4>
-              <p>Ulamco laboris nisi ut aliquip ex ea commodo consequat. Et consectetur ducimus vero placeat</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 mt-4 mt-lg-0">
-            <div class="box" data-aos="zoom-in" data-aos-delay="200">
-              <span>FINCA PACAYA CENTRO</span>
-              <h4>ÁREA 44 MANZANAS</h4>
-              <p>Dolorem est fugiat occaecati voluptate velit esse. Dicta veritatis dolor quod et vel dire leno para dest</p>
-            </div>
-          </div>
-
-         
-
-        </div>
-
-      </div>
-    </section> -->
-    
-    <!-- End Why Us Section -->
 
     <!-- ======= Menu Section ======= -->
     <section id="menu" class="menu section-bg gallery" >
@@ -250,7 +206,7 @@ include("forms/contacto.php");
                       <div class="col-lg-3 col-md-4">
                         <div class="gallery-item">
                           <a href="assets/img/videos/marcacafe.mp4" class="gallery-lightbox" data-gall="gallery-item">
-                            <img src="assets/img/marca/pic3.jpg" alt="" class="img-fluid">
+                            <img src="assets/img/marca/pic3.jpg" alt="marca de cafe don indalecio, Honduras" class="img-fluid">
                           </a>
                         </div>
                       </div>
@@ -258,7 +214,7 @@ include("forms/contacto.php");
                       <div class="col-lg-3 col-md-4">
                         <div class="gallery-item">
                           <a href="assets/img/marca/pic10.jpg" class="gallery-lightbox" data-gall="gallery-item">
-                            <img src="assets/img/marca/pic10.jpg" alt="" class="img-fluid">
+                            <img src="assets/img/marca/pic10.jpg" alt="marca de cafe don indalecio, Honduras" class="img-fluid">
                           </a>
                         </div>
                       </div>
@@ -266,7 +222,7 @@ include("forms/contacto.php");
                       <div class="col-lg-3 col-md-4">
                         <div class="gallery-item">
                           <a href="assets/img/videos/marcacafe2.mp4" class="gallery-lightbox" data-gall="gallery-item">
-                            <img src="assets/img/marca/pic11.jpg" alt="" class="img-fluid">
+                            <img src="assets/img/marca/pic11.jpg" alt="marca de cafe don indalecio, Honduras" class="img-fluid">
                           </a>
                         </div>
                       </div>
@@ -274,7 +230,7 @@ include("forms/contacto.php");
                       <div class="col-lg-3 col-md-4">
                         <div class="gallery-item">
                           <a href="assets/img/marca/pic9.jpg" class="gallery-lightbox" data-gall="gallery-item">
-                            <img src="assets/img/marca/pic9.jpg" alt="" class="img-fluid">
+                            <img src="assets/img/marca/pic9.jpg" alt="marca de cafe don indalecio, Honduras" class="img-fluid">
                           </a>
                         </div>
                       </div>
@@ -282,7 +238,7 @@ include("forms/contacto.php");
                       <div class="col-lg-3 col-md-4">
                         <div class="gallery-item">
                           <a href="assets/img/videos/marcacafe3.mp4" class="gallery-lightbox" data-gall="gallery-item">
-                            <img src="assets/img/marca/pic4.jpg" alt="" class="img-fluid">
+                            <img src="assets/img/marca/pic4.jpg" alt="marca de cafe don indalecio, Honduras" class="img-fluid">
                           </a>
                         </div>
                       </div>
@@ -290,7 +246,7 @@ include("forms/contacto.php");
                       <div class="col-lg-3 col-md-4">
                         <div class="gallery-item">
                           <a href="assets/img/marca/pic7.jpg" class="gallery-lightbox" data-gall="gallery-item">
-                            <img src="assets/img/marca/pic7.jpg" alt="" class="img-fluid">
+                            <img src="assets/img/marca/pic7.jpg" alt="marca de cafe don indalecio, Honduras" class="img-fluid">
                           </a>
                         </div>
                       </div>
@@ -298,7 +254,7 @@ include("forms/contacto.php");
                       <div class="col-lg-3 col-md-4">
                         <div class="gallery-item">
                           <a href="assets/img/videos/marcacafe4.mp4" class="gallery-lightbox" data-gall="gallery-item">
-                            <img src="assets/img/marca/pic6.jpg" alt="" class="img-fluid">
+                            <img src="assets/img/marca/pic6.jpg" alt="marca de cafe don indalecio, Honduras" class="img-fluid">
                           </a>
                         </div>
                       </div>
@@ -306,7 +262,7 @@ include("forms/contacto.php");
                       <div class="col-lg-3 col-md-4">
                         <div class="gallery-item">
                           <a href="assets/img/marca/pic5.jpg" class="gallery-lightbox" data-gall="gallery-item">
-                            <img src="assets/img/marca/pic5.jpg" alt="" class="img-fluid">
+                            <img src="assets/img/marca/pic5.jpg" alt="marca de cafe don indalecio, Honduras" class="img-fluid">
                           </a>
                         </div>
                       </div>
@@ -319,7 +275,7 @@ include("forms/contacto.php");
               <div class="tab-pane" id="tab-5">
                 <div class="row">
                   <div class="col-lg-8 details order-2 order-lg-1">
-                    <h3>Puntos de venta</h3>
+                    <h3>Puntos de venta de cafe, Honduras</h3>
                     <p class="fst-italic">* En "Lácteos y más" Torres</p>
                     <p>Residencial Toncontin, continúo a terminal tica bus.</p> 
                    
@@ -343,13 +299,11 @@ include("forms/contacto.php");
               <div class="tab-pane" id="tab-6">
                 <div class="row">
                   <div class="col-lg-8 details order-2 order-lg-1">
-                    <h1>PRECIO PARA EXPLOTAR LA MARCA</h1>
-                    <p style="font-size: 45px;">$ 100,000.00</p>
+                    <h1>PRECIO PARA EXPLOTAR LA MARCA, Honduras</h1>
+                    <p style="font-size: 45px;">Precio: $ 100,000.00</p>
                     <a href="#contact" style="color: aqua; font-size:35px"><b>Contactanos</b> </a>
                   </div>
-                  <!-- <div class="col-lg-4 text-center order-1 order-lg-2">
-                    <img src="assets/img/specials-5.png" alt="" class="img-fluid">
-                  </div> -->
+                 
                 </div>
               </div>
              
@@ -439,7 +393,7 @@ include("forms/contacto.php");
                             <div class="col-lg-3 col-md-4">
                               <div class="gallery-item">
                                 <a href="assets/img/tigre/casa.png" class="gallery-lightboxest1" data-gall="gallery-item"  data-title="Casa con capacidad para 100 trabajadores." >
-                                  <img src="assets/img/tigre/casa.png" alt="" class="img-fluid">
+                                  <img src="assets/img/tigre/casa.png" alt="finca de café Olancho, Honduras finca el tigre" class="img-fluid">
                                 </a>
                               </div>
                             </div>
@@ -447,7 +401,7 @@ include("forms/contacto.php");
                             <div class="col-lg-3 col-md-4">
                               <div class="gallery-item">
                                 <a href="assets/img/tigre/suministro.png" class="gallery-lightboxest1" data-title="Equipos y suministros para el café Procesando." data-gall="gallery-item">
-                                  <img src="assets/img/tigre/suministro.png" alt="" class="img-fluid">
+                                  <img src="assets/img/tigre/suministro.png" alt=" finca de café Olancho, Honduras finca el tigre 2" class="img-fluid">
                                 </a>
                               </div>
                             </div>
@@ -455,7 +409,7 @@ include("forms/contacto.php");
                             <div class="col-lg-3 col-md-4">
                               <div class="gallery-item">
                                 <a href="assets/img/tigre/casa3.png" class="gallery-lightboxest1" data-gall="gallery-item">
-                                  <img src="assets/img/tigre/casa3.png" alt="" class="img-fluid">
+                                  <img src="assets/img/tigre/casa3.png" alt="finca de café Olancho, Honduras finca el tigre i" class="img-fluid">
                                 </a>
                               </div>
                             </div>
@@ -463,7 +417,7 @@ include("forms/contacto.php");
                             <div class="col-lg-3 col-md-4">
                               <div class="gallery-item">
                                 <a href="assets/img/tigre/maquina1.png" class="gallery-lightboxest1" data-gall="gallery-item">
-                                  <img src="assets/img/tigre/maquina1.png" alt="" class="img-fluid">
+                                  <img src="assets/img/tigre/maquina1.png" alt="finca de café Olancho, Honduras finca el tigre " class="img-fluid">
                                 </a>
                               </div>
                             </div>
@@ -471,7 +425,7 @@ include("forms/contacto.php");
                             <div class="col-lg-3 col-md-4">
                               <div class="gallery-item">
                                 <a href="assets/img/tigre/maquina2.png" class="gallery-lightboxest1" data-gall="gallery-item">
-                                  <img src="assets/img/tigre/maquina2.png" alt="" class="img-fluid">
+                                  <img src="assets/img/tigre/maquina2.png" alt="finca de café Olancho, Honduras finca el tigre" class="img-fluid">
                                 </a>
                               </div>
                             </div>
@@ -479,7 +433,7 @@ include("forms/contacto.php");
                             <div class="col-lg-3 col-md-4">
                               <div class="gallery-item">
                                 <a href="assets/img/tigre/maquina3.png" class="gallery-lightboxest1" data-gall="gallery-item">
-                                  <img src="assets/img/tigre/maquina3.png" alt="" class="img-fluid">
+                                  <img src="assets/img/tigre/maquina3.png" alt="finca de café Olancho, Honduras finca el tigre" class="img-fluid">
                                 </a>
                               </div>
                             </div>
@@ -487,14 +441,14 @@ include("forms/contacto.php");
                             <div class="col-lg-3 col-md-4">
                               <div class="gallery-item">
                                 <a href="assets/img/tigre/casa5.png" class="gallery-lightboxest1" data-title="Nivel 5 solar secadora." data-gall="gallery-item">
-                                  <img src="assets/img/tigre/casa5.png" alt="" class="img-fluid">
+                                  <img src="assets/img/tigre/casa5.png" alt="finca de café Olancho, Honduras finca el tigre" class="img-fluid">
                                 </a>
                               </div>
                             </div>
                             <div class="col-lg-3 col-md-4">
                               <div class="gallery-item">
                                 <a href="assets/img/tigre/casa6.png" class="gallery-lightboxest1" data-title="Despulpado y Lavado para ecológico beneficio." data-gall="gallery-item">
-                                  <img src="assets/img/tigre/casa6.png" alt="" class="img-fluid">
+                                  <img src="assets/img/tigre/casa6.png" alt="finca de café Olancho, Honduras finca el tigre" class="img-fluid">
                                 </a>
                               </div>
                             </div>
@@ -599,7 +553,7 @@ include("forms/contacto.php");
               <div class="tab-pane" id="tab-6T">
                 <div class="row">
                   <div class="col-lg-8 details order-2 order-lg-1">
-                    <h1>PRECIO</h1>
+                    <h1>PRECIO FINCA EL TIGRE</h1>
                     <p style="font-size: 45px;">$ 620,000.00</p>
                     <a href="#contact" style="color: aqua; font-size:35px"><b>Contactanos</b> </a>
                   </div>
@@ -698,7 +652,7 @@ include("forms/contacto.php");
                       <div class="col-lg-3 col-md-4">
                         <div class="gallery-item">
                           <a href="assets/img/pacaya/video1.mp4" class="gallery-lightbox2" data-gall="gallery-item">
-                            <img src="assets/img/pacaya/pic1.jpeg" alt="" class="img-fluid">
+                            <img src="assets/img/pacaya/pic1.jpeg" alt="finca de café Olancho, Honduras finca pacaya" class="img-fluid">
                           </a>
                         </div>
                       </div>
@@ -706,7 +660,7 @@ include("forms/contacto.php");
                       <div class="col-lg-3 col-md-4">
                         <div class="gallery-item">
                           <a href="assets/img/pacaya/pic2.jpeg" class="gallery-lightbox2" data-gall="gallery-item">
-                            <img src="assets/img/pacaya/pic2.jpeg" alt="" class="img-fluid">
+                            <img src="assets/img/pacaya/pic2.jpeg" alt="finca de café Olancho, Honduras finca pacaya" class="img-fluid">
                           </a>
                         </div>
                       </div>
@@ -714,7 +668,7 @@ include("forms/contacto.php");
                       <div class="col-lg-3 col-md-4">
                         <div class="gallery-item">
                           <a href="assets/img/pacaya/pic3.jpeg" class="gallery-lightbox2" data-gall="gallery-item">
-                            <img src="assets/img/pacaya/pic3.jpeg" alt="" class="img-fluid">
+                            <img src="assets/img/pacaya/pic3.jpeg" alt="finca de café Olancho, Honduras finca pacaya" class="img-fluid">
                           </a>
                         </div>
                       </div>
@@ -722,7 +676,7 @@ include("forms/contacto.php");
                       <div class="col-lg-3 col-md-4">
                         <div class="gallery-item">
                           <a href="assets/img/pacaya/video2.mp4" class="gallery-lightbox2" data-gall="gallery-item">
-                            <img src="assets/img/pacaya/pic2.jpeg" alt="" class="img-fluid">
+                            <img src="assets/img/pacaya/pic2.jpeg" alt="finca de café Olancho, Honduras finca pacaya" class="img-fluid">
                           </a>
                         </div>
                       </div>
@@ -730,7 +684,7 @@ include("forms/contacto.php");
                       <div class="col-lg-3 col-md-4">
                         <div class="gallery-item">
                           <a href="assets/img/pacaya/pic5.jpeg" class="gallery-lightbox2" data-gall="gallery-item">
-                            <img src="assets/img/pacaya/pic5.jpeg" alt="" class="img-fluid">
+                            <img src="assets/img/pacaya/pic5.jpeg" alt="finca de café Olancho, Honduras finca pacaya" class="img-fluid">
                           </a>
                         </div>
                       </div>
@@ -738,7 +692,7 @@ include("forms/contacto.php");
                       <div class="col-lg-3 col-md-4">
                         <div class="gallery-item">
                           <a href="assets/img/pacaya/pic6.jpeg" class="gallery-lightbox2" data-gall="gallery-item">
-                            <img src="assets/img/pacaya/pic6.jpeg" alt="" class="img-fluid">
+                            <img src="assets/img/pacaya/pic6.jpeg" alt="finca de café Olancho, Honduras finca pacaya" class="img-fluid">
                           </a>
                         </div>
                       </div>
@@ -746,7 +700,7 @@ include("forms/contacto.php");
                       <div class="col-lg-3 col-md-4">
                         <div class="gallery-item">
                           <a href="assets/img/pacaya/pic7.jpeg" class="gallery-lightbox2" data-gall="gallery-item">
-                            <img src="assets/img/pacaya/pic7.jpeg" alt="" class="img-fluid">
+                            <img src="assets/img/pacaya/pic7.jpeg" alt="finca de café Olancho, Honduras finca pacaya" class="img-fluid">
                           </a>
                         </div>
                       </div>
@@ -754,7 +708,7 @@ include("forms/contacto.php");
                       <div class="col-lg-3 col-md-4">
                         <div class="gallery-item">
                           <a href="assets/img/pacaya/pic8.jpeg" class="gallery-lightbox2" data-gall="gallery-item">
-                            <img src="assets/img/pacaya/pic8.jpeg" alt="" class="img-fluid">
+                            <img src="assets/img/pacaya/pic8.jpeg" alt="finca de café Olancho, Honduras finca pacaya" class="img-fluid">
                           </a>
                         </div>
                       </div>
@@ -778,7 +732,7 @@ include("forms/contacto.php");
               <div class="tab-pane" id="tab-6P">
                 <div class="row">
                 <div class="col-lg-8 details order-2 order-lg-1">
-                    <h1>PRECIO</h1>
+                    <h1>PRECIO FINCA PACAYA </h1>
                     <p style="font-size: 45px;">$ 220,000.00</p>
                     <a href="#contact" style="color: aqua; font-size:35px"><b>Contactanos</b> </a>
                   </div>
@@ -847,7 +801,7 @@ include("forms/contacto.php");
                     </p>
                   </div>
                   <div class="col-lg-4 text-center order-1 order-lg-2">
-                    <img src="assets/img/cafepacayacentro.png" alt="" class="img-fluid">
+                    <img src="assets/img/cafepacayacentro.png" alt="finca de café Olancho, Honduras finca pacaya centro" class="img-fluid">
                   </div>
                 </div>
               </div>
@@ -878,7 +832,7 @@ include("forms/contacto.php");
                             <div class="col-lg-3 col-md-4">
                               <div class="gallery-item">
                                 <a href="assets/img/pacayacentro/casa1.png" class="gallery-lightboxest1" data-gall="gallery-item"  data-title="Casa con capacidad para 100 trabajadores." >
-                                  <img src="assets/img/pacayacentro/casa1.png" alt="" class="img-fluid">
+                                  <img src="assets/img/pacayacentro/casa1.png" alt="finca de café Olancho, Honduras finca pacaya centro casa" class="img-fluid">
                                 </a>
                               </div>
                             </div>
@@ -886,7 +840,7 @@ include("forms/contacto.php");
                             <div class="col-lg-3 col-md-4">
                               <div class="gallery-item">
                                 <a href="assets/img/pacayacentro/casa2.png" class="gallery-lightboxest1" data-title="Equipos y suministros para el café Procesando." data-gall="gallery-item">
-                                  <img src="assets/img/pacayacentro/casa2.png" alt="" class="img-fluid">
+                                  <img src="assets/img/pacayacentro/casa2.png" alt=" finca de café Olancho, Honduras finca pacaya centro casa" class="img-fluid">
                                 </a>
                               </div>
                             </div>
@@ -894,7 +848,7 @@ include("forms/contacto.php");
                             <div class="col-lg-3 col-md-4">
                               <div class="gallery-item">
                                 <a href="assets/img/pacayacentro/casa3.png" class="gallery-lightboxest1" data-gall="gallery-item">
-                                  <img src="assets/img/pacayacentro/casa3.png" alt="" class="img-fluid">
+                                  <img src="assets/img/pacayacentro/casa3.png" alt="finca de café Olancho, Honduras finca pacaya centro casa" class="img-fluid">
                                 </a>
                               </div>
                             </div>
@@ -902,7 +856,7 @@ include("forms/contacto.php");
                             <div class="col-lg-3 col-md-4">
                               <div class="gallery-item">
                                 <a href="assets/img/pacayacentro/maquinaria.png" class="gallery-lightboxest1" data-gall="gallery-item">
-                                  <img src="assets/img/pacayacentro/maquinaria.png" alt="" class="img-fluid">
+                                  <img src="assets/img/pacayacentro/maquinaria.png" alt="finca de café Olancho, Honduras finca pacaya centro maquinaria" class="img-fluid">
                                 </a>
                               </div>
                             </div>
@@ -910,7 +864,7 @@ include("forms/contacto.php");
                             <div class="col-lg-3 col-md-4">
                               <div class="gallery-item">
                                 <a href="assets/img/pacayacentro/maquinaria2.png" class="gallery-lightboxest1" data-gall="gallery-item">
-                                  <img src="assets/img/pacayacentro/maquinaria2.png" alt="" class="img-fluid">
+                                  <img src="assets/img/pacayacentro/maquinaria2.png" alt="finca de café Olancho, Honduras finca pacaya centro maquinaria" class="img-fluid">
                                 </a>
                               </div>
                             </div>
@@ -918,7 +872,7 @@ include("forms/contacto.php");
                             <div class="col-lg-3 col-md-4">
                               <div class="gallery-item">
                                 <a href="assets/img/pacayacentro/maquinaria3.png" class="gallery-lightboxest1" data-gall="gallery-item">
-                                  <img src="assets/img/pacayacentro/maquinaria3.png" alt="" class="img-fluid">
+                                  <img src="assets/img/pacayacentro/maquinaria3.png" alt="finca de café Olancho, Honduras finca pacaya centro maquinaria" class="img-fluid">
                                 </a>
                               </div>
                             </div>
@@ -940,7 +894,7 @@ include("forms/contacto.php");
                       <div class="col-lg-3 col-md-4">
                         <div class="gallery-item">
                           <a href="assets/img/pacayacentro/video1.mp4" class="gallery-lightbox3" data-gall="gallery-item">
-                            <img src="assets/img/pacayacentro/pic1.jpeg" alt="" class="img-fluid">
+                            <img src="assets/img/pacayacentro/pic1.jpeg" alt="finca de café Olancho, Honduras finca pacaya centro" class="img-fluid">
                           </a>
                         </div>
                       </div>
@@ -948,7 +902,7 @@ include("forms/contacto.php");
                       <div class="col-lg-3 col-md-4">
                         <div class="gallery-item">
                           <a href="assets/img/pacayacentro/pic2.jpeg" class="gallery-lightbox3" data-gall="gallery-item">
-                            <img src="assets/img/pacayacentro/pic2.jpeg" alt="" class="img-fluid">
+                            <img src="assets/img/pacayacentro/pic2.jpeg" alt="finca de café Olancho, Honduras finca pacaya centro" class="img-fluid">
                           </a>
                         </div>
                       </div>
@@ -956,7 +910,7 @@ include("forms/contacto.php");
                       <div class="col-lg-3 col-md-4">
                         <div class="gallery-item">
                           <a href="assets/img/pacayacentro/pic3.jpeg" class="gallery-lightbox3" data-gall="gallery-item">
-                            <img src="assets/img/pacayacentro/pic3.jpeg" alt="" class="img-fluid">
+                            <img src="assets/img/pacayacentro/pic3.jpeg" alt="finca de café Olancho, Honduras finca pacaya centro" class="img-fluid">
                           </a>
                         </div>
                       </div>
@@ -964,7 +918,7 @@ include("forms/contacto.php");
                       <div class="col-lg-3 col-md-4">
                         <div class="gallery-item">
                           <a href="assets/img/pacayacentro/video2.mp4" class="gallery-lightbox3" data-gall="gallery-item">
-                            <img src="assets/img/pacayacentro/pic4.jpeg" alt="" class="img-fluid">
+                            <img src="assets/img/pacayacentro/pic4.jpeg" alt="finca de café Olancho, Honduras finca pacaya centro" class="img-fluid">
                           </a>
                         </div>
                       </div>
@@ -972,7 +926,7 @@ include("forms/contacto.php");
                       <div class="col-lg-3 col-md-4">
                         <div class="gallery-item">
                           <a href="assets/img/pacayacentro/pic5.jpeg" class="gallery-lightbox3" data-gall="gallery-item">
-                            <img src="assets/img/pacayacentro/pic5.jpeg" alt="" class="img-fluid">
+                            <img src="assets/img/pacayacentro/pic5.jpeg" alt="finca de café Olancho, Honduras finca pacaya centro" class="img-fluid">
                           </a>
                         </div>
                       </div>
@@ -980,7 +934,7 @@ include("forms/contacto.php");
                       <div class="col-lg-3 col-md-4">
                         <div class="gallery-item">
                           <a href="assets/img/pacayacentro/pic6.jpeg" class="gallery-lightbox3" data-gall="gallery-item">
-                            <img src="assets/img/pacayacentro/pic6.jpeg" alt="" class="img-fluid">
+                            <img src="assets/img/pacayacentro/pic6.jpeg" alt="finca de café Olancho, Honduras finca pacaya centro" class="img-fluid">
                           </a>
                         </div>
                       </div>
@@ -988,7 +942,7 @@ include("forms/contacto.php");
                       <div class="col-lg-3 col-md-4">
                         <div class="gallery-item">
                           <a href="assets/img/pacayacentro/pic1.jpeg" class="gallery-lightbox3" data-gall="gallery-item">
-                            <img src="assets/img/pacayacentro/pic1.jpeg" alt="" class="img-fluid">
+                            <img src="assets/img/pacayacentro/pic1.jpeg" alt="finca de café Olancho, Honduras finca pacaya centro" class="img-fluid">
                           </a>
                         </div>
                       </div>
@@ -996,7 +950,7 @@ include("forms/contacto.php");
                       <div class="col-lg-3 col-md-4">
                         <div class="gallery-item">
                           <a href="assets/img/pacayacentro/pic4.jpeg" class="gallery-lightbox3" data-gall="gallery-item">
-                            <img src="assets/img/pacayacentro/pic4.jpeg" alt="" class="img-fluid">
+                            <img src="assets/img/pacayacentro/pic4.jpeg" alt="finca de café Olancho, Honduras finca pacaya centro" class="img-fluid">
                           </a>
                         </div>
                       </div>
@@ -1020,7 +974,7 @@ include("forms/contacto.php");
               <div class="tab-pane" id="tab-6PC">
               <div class="row">
                 <div class="col-lg-8 details order-2 order-lg-1">
-                    <h1>PRECIO</h1>
+                    <h1>PRECIO DE FINCA PACAYA CENTRO</h1>
                     <p style="font-size: 45px;">$ 550,000.00</p>
                     <a href="#contact" style="color: aqua; font-size:35px"><b>Contactanos</b> </a>
                   </div>
@@ -1052,12 +1006,12 @@ include("forms/contacto.php");
             <div class="swiper-slide">
               <div class="row event-item">
                 <div class="col-lg-6">
-                  <img src="assets/img/ventatigre.jpeg" class="img-fluid" alt="">
+                  <img src="assets/img/ventatigre.jpeg" class="img-fluid" alt="finca de café Olancho, Honduras finca el tigre">
                 </div>
                 <div class="col-lg-6 pt-4 pt-lg-0 content">
-                  <h3>FINCA EL TIGRE</h3>
+                  <h1>VENTA DE FINCA EL TIGRE</h1>
                   <div class="price">
-                    <p><span>$620,000.00</span></p>
+                    <p>PRECIO:<span> $620,000.00</span></p>
                   </div>
                   <p class="fst-italic">
                    <b> Valores agregados</b>
@@ -1069,19 +1023,19 @@ include("forms/contacto.php");
                     <li><i class="bi bi-check-circled"></i> Valla de alambre con púas.</li>
                     <li><i class="bi bi-check-circled"></i> Instalación de agua potable agua y agua de riego a través de la finca.</li>
                   </ul>
-                </div>
+                </div> 
               </div>
             </div><!-- End testimonial item -->
 
             <div class="swiper-slide">
               <div class="row event-item">
                 <div class="col-lg-6">
-                  <img src="assets/img/ventapacaya.jpeg" class="img-fluid" alt="">
+                  <img src="assets/img/ventapacaya.jpeg" class="img-fluid" alt="finca de café Olancho, Honduras finca pacaya">
                 </div>
                 <div class="col-lg-6 pt-4 pt-lg-0 content">
-                  <h3>FINCA PACAYA</h3>
+                  <h3>VENTA DE FINCA PACAYA</h3>
                   <div class="price">
-                    <p><span>$220,000.00</span></p>
+                    <p>PRECIO: <span>$220,000.00</span></p>
                   </div>
                   <p class="fst-italic">
                     <b>valores agregados  </b>
@@ -1098,12 +1052,12 @@ include("forms/contacto.php");
             <div class="swiper-slide">
               <div class="row event-item">
                 <div class="col-lg-6">
-                  <img src="assets/img/ventapacayacentro.jpg" class="img-fluid" alt="">
+                  <img src="assets/img/ventapacayacentro.jpg" class="img-fluid" alt="finca de café Olancho, Honduras finca pacaya centro">
                 </div>
                 <div class="col-lg-6 pt-4 pt-lg-0 content">
-                  <h3>FINCA PACAYA CENTRO</h3>
+                  <h3>VENTA FINCA PACAYA CENTRO</h3>
                   <div class="price">
-                    <p><span>$550,000.00</span></p>
+                    <p>PRECIO: <span>$550,000.00</span></p>
                   </div>
                   <p class="fst-italic">
                    <b> Valores agregados</b>
@@ -1125,7 +1079,7 @@ include("forms/contacto.php");
             <div class="swiper-slide">
               <div class="row event-item">
                 <div class="col-lg-6">
-                  <img src="assets/img/Home.jpeg" class="img-fluid" alt="">
+                  <img src="assets/img/Home.jpeg" class="img-fluid" alt="marca de cafe don indalecio, Honduras">
                 </div>
                 <div class="col-lg-6 pt-4 pt-lg-0 content">
                   <h3>CAFÉ DON INDALECIO</h3>
