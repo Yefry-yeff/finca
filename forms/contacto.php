@@ -27,8 +27,8 @@ function envioCorreo(){
             $mail->SMTPAuth = true;
             $mail->Username = 'infocafe@cafedonindalecio.com';
             $mail->Password = 'Cafe2021DI';
-            /* $mail->SMTPSecure = 'ssl'; */
-            $mail->Port = 465;
+          /*   $mail->SMTPSecure = 'ssl/tls'; */
+            $mail->Port = 587;
 
 
             /* ENVIAR CORREO */
