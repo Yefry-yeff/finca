@@ -1,0 +1,6 @@
+[12-Oct-2021 05:41:36 Europe/Berlin] PHP Warning:  require_once(/home/u304590483/domains/cafedonindalecio.com/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\github\finca\forms\contacto.php on line 10
+[12-Oct-2021 05:41:36 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required '/home/u304590483/domains/cafedonindalecio.com/public_html/vendor/autoload.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\github\finca\forms\contacto.php:10
+Stack trace:
+#0 C:\xampp\htdocs\github\finca\index.php(2): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\github\finca\forms\contacto.php on line 10

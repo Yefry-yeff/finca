@@ -36,8 +36,8 @@ function envioCorreo(){
             /* ENVIAR CORREO */
             $mail->setFrom('infocafe@cafedonindalecio.com');
             /* QUIEN RECIBE CORREO */
-            $mail->addAddress('yefry21.yo@gmail.com');
-            $mail->addCC('selvinmorazan@gmail.com');
+            $mail->addAddress('andreainestrozaa@gmail.com');
+            $mail->addCC('clasolorzano0605@hotmail.com');
 
             $mail->isHTML(true);
             $mail->Subject = $asunto;
