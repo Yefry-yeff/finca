@@ -4,7 +4,7 @@ use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
 
 // require_once 'C:\xampp\htdocs\fincas_cafe\vendor\autoload.php';
-require_once 'C:\xampp\htdocs\github\finca\vendor\autoload.php';
+require_once 'C:\xampp\htdocs\fincas_cafe\vendor\autoload.php';
 
 
 envioCorreo();
@@ -27,7 +27,7 @@ function envioCorreo(){
             $mail->SMTPAuth = true;
             $mail->Username = 'infocafe@cafedonindalecio.com';
             $mail->Password = 'Cafe2021DI';
-            $mail->SMTPSecure = 'ssl';
+            /* $mail->SMTPSecure = 'SSL/TLS'; */
             $mail->Port = 465;
 
 
