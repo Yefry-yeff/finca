@@ -27,7 +27,7 @@ function envioCorreo(){
             $mail->SMTPAuth = true;
             $mail->Username = 'infocafe@cafedonindalecio.com';
             $mail->Password = 'Cafe2021DI';
-            /* $mail->SMTPSecure = 'SSL/TLS'; */
+            $mail->SMTPSecure = 'ssl';
             $mail->Port = 465;
 
 
@@ -35,7 +35,7 @@ function envioCorreo(){
            // $mail->setFrom('humansys2021@gmail.com');
             /* QUIEN RECIBE CORREO */
             //  $mail->addAddress('selvinmorazan@gmail.com');
-            $mail->addCC('selvinmorazan@gmail.com');
+            $mail->addCC('yefryyo@gmail.com');
 
             $mail->isHTML(true);
             $mail->Subject = $asunto;

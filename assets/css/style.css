@@ -453,7 +453,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @keyframes movimientoImg {
   0%   {background: url("../img/cafe.jpg") top center;background-repeat: no-repeat;background-size: 100%;}
-  15%  {background: url("../img/pacayacentro/about-bg.jpg") top center;background-repeat: no-repeat;background-size: 100%;}
+  15%  {background: url("../img/about-bg.jpg") top center;background-repeat: no-repeat;background-size: 100%;}
   30%  {background: url("../img/pacayacentro/pic6.jpeg") top center;background-repeat: no-repeat;background-size: 100%;}
   60%  {background: url("../img/ventapacaya.jpeg") top center;background-repeat: no-repeat;background-size: 100%;}
   75% {background: url("../img/pic3.jpeg") top center;background-repeat: no-repeat;background-size: 100%;}
