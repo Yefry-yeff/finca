@@ -4,7 +4,7 @@ use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
 
 // require_once 'C:\xampp\htdocs\fincas_cafe\vendor\autoload.php';
-/* require_once 'C:\xampp\htdocs\github\finca\vendor\autoload.php'; */
+require_once 'C:\xampp\htdocs\github\finca\vendor\autoload.php';
 
 
 envioCorreo();
