@@ -34,7 +34,7 @@ function envioCorreo(){
             /* ENVIAR CORREO */
            // $mail->setFrom('humansys2021@gmail.com');
             /* QUIEN RECIBE CORREO */
-            // $mail->addAddress('yefryyo@gmail.com');
+             $mail->addAddress('selvinmoran@gmail.com');
             $mail->addCC('yefryyo@gmail.com');
 
             $mail->isHTML(true);
