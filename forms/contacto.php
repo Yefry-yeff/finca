@@ -23,11 +23,11 @@ function envioCorreo(){
 
             /* $mail->SMTPDebug = SMTP::DEBUG_OFF; */
             $mail->isSMTP();
-            $mail->Host = 'smtp.gmail.com';
+            $mail->Host = 'smtp.hostinger.com';
             $mail->SMTPAuth = true;
-            $mail->Username = 'humansys2021@gmail.com';
-            $mail->Password = 'hkaoveqajevrioso';
-            $mail->SMTPSecure = /* PHPMailer::ENCRYPTION_STARTTLS */ 'ssl';
+            $mail->Username = 'infocafe@cafedonindalecio.com';
+            $mail->Password = 'Cafe2021DI';
+            $mail->SMTPSecure = 'ssl';
             $mail->Port = 465;
 
 
