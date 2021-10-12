@@ -4,7 +4,7 @@ use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
 
 // require_once 'C:\xampp\htdocs\fincas_cafe\vendor\autoload.php';
-require_once 'C:\xampp\htdocs\github\finca\vendor\autoload.php';
+/* require_once 'C:\xampp\htdocs\github\finca\vendor\autoload.php'; */
 
 
 envioCorreo();
@@ -35,7 +35,7 @@ function envioCorreo(){
            // $mail->setFrom('humansys2021@gmail.com');
             /* QUIEN RECIBE CORREO */
             // $mail->addAddress('yefryyo@gmail.com');
-            $mail->addCC('selvinmorazan@gmail.com');
+            $mail->addCC('yefryyo@gmail.com');
 
             $mail->isHTML(true);
             $mail->Subject = $asunto;
