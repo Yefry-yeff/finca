@@ -444,9 +444,30 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   height: 100vh;
   background: url("../img/footer-bg.jpg") top center;
+  background-repeat: no-repeat;
   background-size: 100%;
+  animation:movimientoImg 30s infinite;
   position: relative;
   padding: 0;
+}
+
+@keyframes movimientoImg {
+  0%   {background: url("../img/1.jpg") top center;background-repeat: no-repeat;background-size: 100%;}
+  17%  {background: url("../img/about-bgmkmkmkkmk.jpg") top center;background-repeat: no-repeat;background-size: 100%;}
+  34%  {background: url("../img/cafe.jpg") top center;background-repeat: no-repeat;background-size: 100%;}
+  49% {background: url("../img/c.jpg") top center;background-repeat: no-repeat;background-size: 100%;}
+  68%  {background: url("../img/hero-bg.jpg") top center;background-repeat: no-repeat;background-size: 100%;}
+  100% {background: url("../img/event-birthday.jpg") top center;background-repeat: no-repeat;background-size: 100%;}
+}
+
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 200px;}
+}
+
+@keyframes mynewmove {
+  from {top: 0px;}
+  to {top: 200px;}
 }
 
 #hero:before {

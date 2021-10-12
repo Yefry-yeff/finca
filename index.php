@@ -69,20 +69,23 @@ include("forms/contacto.php");
 
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex align-items-center">
+  
     <div class="container position-relative text-left text-lg-start" data-aos="zoom-in" data-aos-delay="100">
       <div class="row"></div>
-        <div class="col-lg-12 text-center">
-          <h1>EN VENTA <span>FINCAS Y MARCA DE CAFÉ OLANCHO, HONDURAS</span></h1> <br>
-          <div class="btns">
-            <a href="#menu" class="btn-menu animated fadeInUp scrollto"> CAFÉ DON INDALECIO</a>
-            <a href="#specials" class="btn-book animated fadeInUp scrollto">FINCA EL TIGRE</a>
-            <a href="#pacaya" class="btn-book animated fadeInUp scrollto">FINCA PACAYA</a>
-            <a href="#pacayacentro" class="btn-book animated fadeInUp scrollto">FINCA PACAYA CENTRO</a>
-          </div>
+      <div class="col-lg-12 text-center">
+        <h1>EN VENTA <span>FINCAS Y MARCA DE CAFÉ OLANCHO, HONDURAS</span></h1> <br>
+        <div class="btns">
+          <a href="#menu" class="btn-menu animated fadeInUp scrollto"> CAFÉ DON INDALECIO</a>
+          <a href="#specials" class="btn-book animated fadeInUp scrollto">FINCA EL TIGRE</a>
+          <a href="#pacaya" class="btn-book animated fadeInUp scrollto">FINCA PACAYA</a>
+          <a href="#pacayacentro" class="btn-book animated fadeInUp scrollto">FINCA PACAYA CENTRO</a>
         </div>
+      </div>
     </div>
+    
+    
+    
   </section><!-- End Hero -->
-
   <main id="main">
 
     <!-- ======= About Section ======= -->
@@ -1256,8 +1259,8 @@ include("forms/contacto.php");
     new google.translate.TranslateElement({pageLanguage: 'es', includedLanguages: 'ca,eu,gl,en,es,fr,it,pt,de'}, 'google_translate_element');
   }
 
-  async function cambiarBackgrounds(){
-    var imagen = document.getElementById("hero");
+  /* async function cambiarBackgrounds(){
+    var imagen = document.getElementById("div-hero");
     var url = '';
 
     arregloImagenes = ["'assets/img/pacayacentro/pic5.jpeg'", "'assets/img/cafe.jpg'", "'assets/img/pacayacentro/pic6.jpeg'", "'assets/img/ventapacaya.jpeg'", "'assets/img/pic3.jpeg'", "'assets/img/pic1.jpeg'"];
@@ -1267,7 +1270,8 @@ include("forms/contacto.php");
       url = arregloImagenes[i];
  
       imagen.style.backgroundImage = "url("+url+")";
-      await delay(3);
+      imagen.style.animation = "mynewmove 4s 2";
+      await delay(5);
       
       if (i == conteo) {
         i=0;
@@ -1279,7 +1283,7 @@ include("forms/contacto.php");
     return new Promise(function(resolve){
         setTimeout(resolve,n*1000);
     });
-}
+  } */
 
   (cambiarBackgrounds)();
   </script>
