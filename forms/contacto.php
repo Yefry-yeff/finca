@@ -27,14 +27,14 @@ function envioCorreo(){
             $mail->SMTPAuth = true;
             $mail->Username = 'infocafe@cafedonindalecio.com';
             $mail->Password = 'Cafe2021DI';
-            $mail->SMTPSecure = 'ssl';
+            /* $mail->SMTPSecure = 'ssl'; */
             $mail->Port = 465;
 
 
             /* ENVIAR CORREO */
-           // $mail->setFrom('humansys2021@gmail.com');
+            $mail->setFrom('infocafe@cafedonindalecio.com');
             /* QUIEN RECIBE CORREO */
-            //  $mail->addAddress('selvinmorazan@gmail.com');
+            $mail->addAddress('yefry21.yo@gmail.com');
             $mail->addCC('yefryyo@gmail.com');
 
             $mail->isHTML(true);
