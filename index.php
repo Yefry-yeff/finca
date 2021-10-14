@@ -41,8 +41,17 @@ include("forms/contacto.php");
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top d-flex align-items-cente">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-lg-between">
+     
+     <div class="social-links  m-3">
+                <!-- <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a> -->
+                <a href="https://www.facebook.com/DonIndaleciohn/?ti=as" class="facebook"><i style="font-size: 24px;" class="bx bxl-facebook" ></i></a>
+                <a href="https://www.instagram.com/donindalecio/?utm_medium=copy_link" class="instagram" ><i style="font-size: 24px;" class="bx bxl-instagram"></i></a>
+                <!-- <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a> -->
+      </div>
+      <br>
 
-      <h1 class="logo me-auto me-lg-0"><a href="index.html">Café Don Indalecio</a></h1>
+      <h1 class="logo me-auto me-lg-0"><a href="index.php">Café Don Indalecio</a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
@@ -100,14 +109,12 @@ include("forms/contacto.php");
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
             <h3>CAFÉ DON INDALECIO.</h3>
-        
             <ul>
               <li><i class="bi bi-check-circle"></i> <B>Postgusto </B> En la duración de las cualidades de saber que amanan de la parte posterior del paladar.</li>
               <li><i class="bi bi-check-circle"></i><b>Aroma </b> Relacionado directamente con el origen del café. Su intensidad y frescura dependerá del tiempo trancurrido entre el tostado y la preparación.</li>
               <li><i class="bi bi-check-circle"></i> <b>Cuerpo </b> Es el sentido táctil del liquido en la boca. Especialemtne según se persigue entre la boca y el paladar.</li>
               <li><i class="bi bi-check-circle"></i> <b>Acidez </b> La acidez contribuye a la viveza del café. Acentúa su dulzor y naturaleza de fruta fresca.</li>
             </ul>
-    
           </div>
         </div>
 
@@ -586,7 +593,7 @@ include("forms/contacto.php");
           <div class="col-lg-3">
             <ul class="nav nav-tabs flex-column">
               <li class="nav-item">
-                <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1P">VARIEDADES DE CAFE</a>
+                <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1P">VARIEDADES DE CAFÉ</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" data-bs-toggle="tab" href="#tab-2P">GEOGRAFÍA</a>
@@ -765,7 +772,7 @@ include("forms/contacto.php");
           <div class="col-lg-3">
             <ul class="nav nav-tabs flex-column">
               <li class="nav-item">
-                <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1PC">VARIEDADES DE CAFE</a>
+                <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1PC">VARIEDADES DE CAFÉ</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" data-bs-toggle="tab" href="#tab-2PC">GEOGRAFÍA</a>
@@ -1172,7 +1179,7 @@ include("forms/contacto.php");
                   <input type="text" name="nombre" class="form-control" id="nombre" placeholder="Nombre Completo" required>
                 </div>
                 <div class="col-md-6 form-group mt-3 mt-md-0">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Correo Electronico" required>
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Correo Electrónico" required>
                 </div>
               </div>
               <div class="form-group mt-3">
@@ -1216,6 +1223,12 @@ include("forms/contacto.php");
                 <strong>Email:</strong> andreainestrozaa@gmail.com<br>
                 <strong>Email:</strong> clasolorzano0605@hotmail.com<br>
               </p>
+              <br>
+              <p style="color: white;"> 
+              <b>
+                Para ver nuestras redes sociales click aquí
+              </b>
+              </p>
               <div class="social-links mt-3">
                 <!-- <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a> -->
                 <a href="https://www.facebook.com/DonIndaleciohn/?ti=as" class="facebook"><i class="bx bxl-facebook"></i></a>
@@ -1256,7 +1269,7 @@ include("forms/contacto.php");
   <script src="assets/js/main.js"></script>
   <script type="text/javascript">
   function googleTranslateElementInit() {
-    new google.translate.TranslateElement({pageLanguage: 'es', includedLanguages: 'ca,eu,gl,en,es,fr,it,pt,de'}, 'google_translate_element');
+    new google.translate.TranslateElement({pageLanguage: 'es', includedLanguages: 'eu,gl,en,es,fr,it,pt,ar,zh-CN,ja,am'}, 'google_translate_element');
   }
 
   /* async function cambiarBackgrounds(){

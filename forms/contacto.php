@@ -5,9 +5,9 @@ use PHPMailer\PHPMailer\Exception;
 
 // require_once 'C:\xampp\htdocs\fincas_cafe\vendor\autoload.php';
 //require_once 'C:\xampp\htdocs\fincas_cafe\vendor\autoload.php';
-// require_once 'C:\xampp\htdocs\github\finca\vendor\autoload.php';
+ require_once 'C:\xampp\htdocs\github\finca\vendor\autoload.php';
 // ruta servidor
-require_once '/home/u304590483/domains/cafedonindalecio.com/public_html/vendor/autoload.php';
+//require_once '/home/u304590483/domains/cafedonindalecio.com/public_html/vendor/autoload.php';
 
 envioCorreo();
 function envioCorreo(){
@@ -28,7 +28,7 @@ function envioCorreo(){
             $mail->Host = 'smtp.hostinger.com';
             $mail->SMTPAuth = true;
             $mail->Username = 'infocafe@cafedonindalecio.com';
-            $mail->Password = 'Cafe2021DI';
+            $mail->Password = 'C@fedonincalecio123';
           /*   $mail->SMTPSecure = 'ssl/tls'; */
             $mail->Port = 587;
 
@@ -36,8 +36,9 @@ function envioCorreo(){
             /* ENVIAR CORREO */
             $mail->setFrom('infocafe@cafedonindalecio.com');
             /* QUIEN RECIBE CORREO */
-            $mail->addAddress('andreainestrozaa@gmail.com');
-            $mail->addCC('clasolorzano0605@hotmail.com');
+            //$mail->addAddress('andreainestrozaa@gmail.com');
+            $mail->addAddress('selvinmorazan@gmail.com');
+            //$mail->addCC('clasolorzano0605@hotmail.com');
 
             $mail->isHTML(true);
             $mail->Subject = $asunto;
