@@ -4,3 +4,9 @@ Stack trace:
 #0 C:\xampp\htdocs\github\finca\index.php(2): include()
 #1 {main}
   thrown in C:\xampp\htdocs\github\finca\forms\contacto.php on line 10
+[20-Oct-2021 16:27:13 Europe/Berlin] PHP Warning:  require_once(C:\xampp\htdocs\github\finca\vendor\autoload.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\finca\forms\contacto.php on line 8
+[20-Oct-2021 16:27:13 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\xampp\htdocs\github\finca\vendor\autoload.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\finca\forms\contacto.php:8
+Stack trace:
+#0 C:\xampp\htdocs\finca\index.php(2): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\finca\forms\contacto.php on line 8

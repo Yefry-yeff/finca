@@ -284,7 +284,7 @@ include("forms/contacto.php");
               </div>
               <div class="tab-pane" id="tab-5">
                 <div class="row">
-                  <div class="col-lg-8 details order-2 order-lg-1">
+                  <div class="col-lg-6 details order-2 order-lg-1">
                     <h3>Puntos de venta de cafe, Honduras</h3>
                     <p class="fst-italic">* En "Lácteos y más" Torres</p>
                     <p>Residencial Toncontin, continúo a terminal tica bus.</p> 
@@ -300,8 +300,8 @@ include("forms/contacto.php");
                     <p class="fst-italic">* Mini super Osiris</p>
                     
                   </div>
-                  <div class="col-lg-4 text-center order-1 order-lg-2">
-                    <img src="assets/img/lugarenventas.jpg" alt="" class="img-fluid">
+                  <div class="col-lg-6 text-center order-1 order-lg-2" id="imagen_menu_ventas">
+                    <!-- <img src="assets/img/lugarenventas.jpg" alt="" class="img-fluid" id="imagen_menu_ventas_img"> -->
                   </div>
                 </div>
               </div>
